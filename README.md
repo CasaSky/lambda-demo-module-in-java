@@ -1,0 +1,1 @@
+This project consists of a demo lambda function written in java and reuses all needed terraform modules from the repository git@github.com:CasaSky/terraform-modules.git to deploy the demo application in aws without duplicating code
