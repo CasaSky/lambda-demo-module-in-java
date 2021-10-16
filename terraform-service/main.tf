@@ -3,8 +3,8 @@ provider "aws" {
 }
 
 module "lambda_sqs" {
-  source = "git@github.com:casasky/terraform_modules.git//lambda-sqs"
-  function_name = "lambda_module"
+  source = "git@github.com:casasky/terraform-modules.git//lambda-sqs"
+  function_name = "lambda-demo-module"
   filepath = "${path.module}/../build/distributions/lambda-demo-module-in-java.zip"
   handler = "com.casasky.Handler"
   runtime = "java11"
